@@ -1,0 +1,159 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    display: inline;
+    float: right;
+    right: 120px;
+    padding: 20px 15px; 
+    font-family: Helvetica;
+    font-size: 12px;
+    position: relative;
+    margin-right: -2px;
+    line-height: 10px; 
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+img {
+    margin-left: auto; 
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+    left: 60px;
+}
+
+.topnav {
+    float: center;
+    display: flex;
+    flex: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 80px;
+    width: 50%;
+    height: 34px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid #f2f2f2
+}
+
+.topnav input[type="text"] {
+    border-radius: 20px;
+    background: white;
+    border: 1px solid #f2f2f2;
+    color: black;
+    cursor: default;
+    font-family: Helvetica;
+    font-size: 16px;
+    width: 500px;
+    padding: 0 16px;
+    height:36px;
+    cursor: text;
+    overflow: hidden;
+    
+ }
+
+.topnav input[type="text"]:focus {
+    outline: none;
+    width: 500px;
+} 
+
+
+.topnav:hover {
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+ }
+
+.sign_in {
+    display: inline; 
+    padding: 9px 23px;
+    top: 10px;
+    background-color: #1a73e8;
+    border: 1px solid #f2f2f2;
+    font-family: Helvetica;
+    border-radius: 4px;
+    font-size: 14px;
+    color: whitesmoke;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: .25px;
+    line-height: 16px;
+    margin-right: 8px;
+}
+
+.sign_in:hover {
+    background: #2b7de9;
+}
+
+.google_search {
+    margin-left: auto; 
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    right: 75px;
+    font-size: 14px;
+    padding: 10px;
+    background: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.google_search:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+
+.feeling_lucky {
+    margin-left: auto; 
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 68px;
+    left: 65px;
+    font-size: 14px;
+    padding: 10px;
+    background: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feeling_lucky:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
